@@ -1,0 +1,13 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/1.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-down/1.xnb","TextureProcessor","Texture2DContent",180,1109,0.1802811
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/2.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-down/2.xnb","TextureProcessor","Texture2DContent",177,1109,0.0040997
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/3.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-down/3.xnb","TextureProcessor","Texture2DContent",156,1109,0.002654
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/1.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-left/1.xnb","TextureProcessor","Texture2DContent",171,1109,0.0012203
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/2.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-left/2.xnb","TextureProcessor","Texture2DContent",177,1109,0.0012403
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/3.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-left/3.xnb","TextureProcessor","Texture2DContent",162,1109,0.0010454
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/1.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-right/1.xnb","TextureProcessor","Texture2DContent",180,1109,0.0011985
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/2.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-right/2.xnb","TextureProcessor","Texture2DContent",180,1109,0.0010906
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/3.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-right/3.xnb","TextureProcessor","Texture2DContent",162,1109,0.0010851
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/1.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-up/1.xnb","TextureProcessor","Texture2DContent",177,1109,0.0011177
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/2.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-up/2.xnb","TextureProcessor","Texture2DContent",180,1109,0.0009877
+"/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/3.png","/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Content/Graphics/pacman-up/3.xnb","TextureProcessor","Texture2DContent",150,1109,0.0042645

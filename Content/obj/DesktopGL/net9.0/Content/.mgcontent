@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/3.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/3.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/3.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/3.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

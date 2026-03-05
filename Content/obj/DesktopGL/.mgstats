@@ -1,0 +1,13 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-down/1.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-down/1.xnb","TextureProcessor","Texture2DContent",180,1109,0.1436556
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-down/2.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-down/2.xnb","TextureProcessor","Texture2DContent",177,1109,0.0052896
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-down/3.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-down/3.xnb","TextureProcessor","Texture2DContent",156,1109,0.0041111
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-left/1.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-left/1.xnb","TextureProcessor","Texture2DContent",171,1109,0.0009049
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-left/2.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-left/2.xnb","TextureProcessor","Texture2DContent",177,1109,0.0007232
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-left/3.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-left/3.xnb","TextureProcessor","Texture2DContent",162,1109,0.0007313
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-right/1.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-right/1.xnb","TextureProcessor","Texture2DContent",180,1109,0.000674
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-right/2.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-right/2.xnb","TextureProcessor","Texture2DContent",180,1109,0.0006692
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-right/3.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-right/3.xnb","TextureProcessor","Texture2DContent",162,1109,0.0006773
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-up/1.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-up/1.xnb","TextureProcessor","Texture2DContent",177,1109,0.0007191
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-up/2.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-up/2.xnb","TextureProcessor","Texture2DContent",180,1109,0.0006623
+"/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-up/3.png","/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-up/3.xnb","TextureProcessor","Texture2DContent",150,1109,0.0005516
