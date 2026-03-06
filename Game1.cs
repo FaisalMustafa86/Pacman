@@ -47,7 +47,7 @@ public class Game1 : Game
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.CornflowerBlue);
+        GraphicsDevice.Clear(Color.Black);
 
         // ScreenManager draws the active screen via Components.
         base.Draw(gameTime);

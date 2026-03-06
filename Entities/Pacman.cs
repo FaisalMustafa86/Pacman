@@ -9,7 +9,6 @@ public sealed class Pacman
     private Texture2D _texture;
 
     public Vector2 Position { get; set; }
-
     public void LoadContent(ContentManager content, string assetName)
     {
         _texture = content.Load<Texture2D>(assetName);
@@ -26,6 +25,6 @@ public sealed class Pacman
             return;
 
         var origin = new Vector2(_texture.Width / 2f, _texture.Height / 2f);
-        spriteBatch.Draw(_texture, Position, null, Color.White, 0f, origin, 1f, SpriteEffects.None, 0f);
+        spriteBatch.Draw(_texture, Position, null, Color.White, 0f, origin, 2f, SpriteEffects.None, 0f);
     }
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-right/2.png</SourceFile>
+  <SourceFile>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/2.png</SourceFile>
   <SourceTime>2020-07-13T11:46:30+05:00</SourceTime>
-  <DestFile>/home/moby-dick/Projects/MyGame/Content/bin/DesktopGL/Graphics/pacman-right/2.xnb</DestFile>
-  <DestTime>2026-03-05T05:58:28.588702+05:00</DestTime>
+  <DestFile>/home/moby-dick/Projects/Pacman/Content/bin/DesktopGL/Graphics/pacman-right/2.xnb</DestFile>
+  <DestTime>2026-03-06T07:33:25.4270837+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-10-20T19:25:32+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

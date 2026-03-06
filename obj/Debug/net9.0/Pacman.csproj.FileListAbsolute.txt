@@ -46,3 +46,9 @@
 /home/moby-dick/Projects/Pacman/obj/Debug/net9.0/Pacman.pdb
 /home/moby-dick/Projects/Pacman/obj/Debug/net9.0/Pacman.genruntimeconfig.cache
 /home/moby-dick/Projects/Pacman/obj/Debug/net9.0/ref/Pacman.dll
+/home/moby-dick/Projects/Pacman/obj/Debug/net9.0/Pacman.sourcelink.json
+/home/moby-dick/Projects/Pacman/bin/Debug/net9.0/Content/Graphics/ghosts/blinky.xnb
+/home/moby-dick/Projects/Pacman/bin/Debug/net9.0/Content/Graphics/ghosts/blue_ghost.xnb
+/home/moby-dick/Projects/Pacman/bin/Debug/net9.0/Content/Graphics/ghosts/clyde.xnb
+/home/moby-dick/Projects/Pacman/bin/Debug/net9.0/Content/Graphics/ghosts/inky.xnb
+/home/moby-dick/Projects/Pacman/bin/Debug/net9.0/Content/Graphics/ghosts/pinky.xnb

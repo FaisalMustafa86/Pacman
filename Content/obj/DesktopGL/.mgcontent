@@ -4,20 +4,30 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-down/1.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-down/2.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-down/3.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-left/1.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-left/2.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-left/3.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-right/1.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-right/2.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-right/3.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-up/1.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-up/2.png</File>
-    <File>/home/moby-dick/Projects/MyGame/Content/Graphics/pacman-up/3.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/ghosts/blinky.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/ghosts/blue_ghost.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/ghosts/clyde.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/ghosts/inky.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/ghosts/pinky.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-down/3.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-left/3.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-right/3.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/1.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/2.png</File>
+    <File>/home/moby-dick/Projects/Pacman/Content/Graphics/pacman-up/3.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
