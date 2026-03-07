@@ -33,6 +33,5 @@
         <Folder Include="Content\Fonts\"/>
         <Folder Include="Content\Graphics\"/>
         <Folder Include="Content\Maps\"/>
-        <Folder Include="Systems\"/>
     </ItemGroup>
 </Project>
