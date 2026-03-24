@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using MonoGame.Extended.Screens;
 using Pacman.Entities;
 using Microsoft.Xna.Framework.Input;
-using MonoGame.Extended.Input;
+using MonoGame.Extended;
 using Pacman.Systems;
 
 namespace Pacman.Screens;
@@ -78,6 +78,13 @@ public class PlayScreen : GameScreen
         _clyde.Draw(_spriteBatch);
         _inky.Draw(_spriteBatch);
         _pinky.Draw(_spriteBatch);
+
+        for (int x = 0; x <= 1280; x += 40)
+            _spriteBatch.DrawLine(new Vector2(x, 0), new Vector2(x, 720), Color.Red);
+
+        for (int y = 0; y <= 720; y += 40)
+            _spriteBatch.DrawLine(new Vector2(0, y), new Vector2(1280, y), Color.Blue);
+
         _spriteBatch.End();
     }
 }
