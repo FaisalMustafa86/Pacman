@@ -20,6 +20,13 @@ public sealed class Pacman
     public float HalfWidth => _texture == null ? 0f : (_texture.Width * 2f) / 2f;
     public float HalfHeight => _texture == null ? 0f : (_texture.Height * 2f) / 2f;
 
+    public Rectangle Bounds =>
+        new Rectangle(
+            (int)(Position.X - HalfWidth),
+            (int)(Position.Y - HalfHeight),
+            (int)(HalfWidth * 2),
+            (int)(HalfHeight * 2));
+
     public void LoadContent(ContentManager content, string assetName)
     {
         _texture = content.Load<Texture2D>(assetName);
