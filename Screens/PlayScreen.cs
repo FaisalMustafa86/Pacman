@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Input;
 using MonoGame.Extended;
 using Pacman.Systems;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Pacman.Screens;
 
@@ -14,10 +15,36 @@ public class PlayScreen : GameScreen
     private readonly Entities.Pacman _pacman = new();
     private readonly Entities.Blinky _blinky = new(); 
     private readonly Entities.clyde _clyde = new(); 
-    private readonly Entities.inky _inky = new(); 
-    private readonly Entities.pinky _pinky = new(); 
+    private readonly Entities.inky _inky = new();
+    private readonly Entities.pinky _pinky = new();
+
     private SpriteBatch _spriteBatch;
     private List<Rectangle> _walls;
+
+    private static readonly string[] Map =
+    {
+        "W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W",
+        "W,-,-,-,C,-,-,-,-,-,-,-,-,-,-,-,W,-,-,-,-,-,-,-,-,-,-,-,C,-,-,-,W",
+        "W,-,W,W,W,W,W,W,-,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,-,W,W,W,W,W,W,-,W",
+        "W,-,-,-,-,-,-,-,C,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,C,-,-,-,-,-,-,-,W",
+        "W,-,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,-,W",
+        "W,-,-,-,C,-,-,-,-,W,-,-,-,-,-,-,W,-,-,-,-,-,-,W,-,-,-,-,C,-,-,-,W",
+        "W,W,W,W,W,W,W,W,-,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,-,W,W,W,W,W,W,W,W",
+        " , , , , , , ,W,-,W,-,-,C,-,-,-,-,-,-,-,C,-,-,W,-,W, , , , , , , ",
+        "W,W,W,W,W,W,W,W,-,W,-,W,W,W,T,T,T,T,T,W,W,W,-,W,-,W,W,W,W,W,W,W,W",
+        "-,-,-,-,-,-,-,-,-,-,-,W, , , , , , , , , ,W,-,-,-,-,-,-,-,-,-,-,-",
+        "W,W,W,W,W,W,W,W,-,W,-,W, ,G, , ,G, , ,G, ,W,-,W,-,W,W,W,W,W,W,W,W",
+        "-,-,-,-,-,-,-,-,-,-,-,W, , , , , , , , , ,W,-,-,-,-,-,-,-,-,-,-,-",
+        "W,W,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,W,W",
+        " , , , , , , ,W,-,W,-,-,C,-,-,-,-,-,-,-,C,-,-,W,-,W, , , , , , , ",
+        "W,W,W,W,W,W,W,W,-,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,-,W,W,W,W,W,W,W,W",
+        "W,-,-,-,C,-,-,-,-,W,P,-,-,-,-,-,W,-,-,-,-,-,-,W,-,-,-,-,C,-,-,-,W",
+        "W,-,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,-,W",
+        "W,-,-,-,-,-,-,-,C,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,C,-,-,-,-,-,-,-,W",
+        "W,-,W,W,W,W,W,W,-,W,W,W,W,W,W,-,W,-,W,W,W,W,W,W,-,W,W,W,W,W,W,-,W",
+        "W,-,-,-,C,-,-,-,-,-,-,-,-,-,-,-,W,-,-,-,-,-,-,-,-,-,-,-,C,-,-,-,W",
+        "W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W"
+    };
 
     public PlayScreen(Game game) : base(game)
     {
@@ -26,10 +53,10 @@ public class PlayScreen : GameScreen
     public override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-        _walls = WallSystem.CreateDefaultWalls();
+        _walls = WallSystem.CreateWallsFromMap(Map);
 
         _pacman.LoadContent(Content, "Graphics/pacman-right/1");
-        _pacman.Position = new Vector2(640, 460);
+        _pacman.Position = new Vector2(10 * WallSystem.TileSize + 20, 15 * WallSystem.TileSize + 20);
 
         _blinky.LoadContent(Content, "Graphics/ghosts/blinky");
         _blinky.Position = new Vector2(560, 200);
@@ -53,22 +80,12 @@ public class PlayScreen : GameScreen
         if (MovementSystem.HasBeenPressed(Keys.Left)) _pacman.NextDirection = Direction.Left;
         if (MovementSystem.HasBeenPressed(Keys.Right)) _pacman.NextDirection = Direction.Right;
 
-        Vector2 previousPosition = _pacman.Position;
+        var previousPosition = _pacman.Position;
 
         _pacman.Update(gameTime);
 
-        float halfWidth = 16f;
-        float halfHeight = 16f;
-
-        _pacman.Position = new Vector2(
-            MathHelper.Clamp(_pacman.Position.X, halfWidth, GraphicsDevice.Viewport.Width - halfWidth),
-            MathHelper.Clamp(_pacman.Position.Y, halfHeight, GraphicsDevice.Viewport.Height - halfHeight)
-        );
-
         if (_walls.Exists(w => w.Intersects(_pacman.Bounds)))
-        {
             _pacman.Position = previousPosition;
-        }
 
         _blinky.Update(gameTime);
         _clyde.Update(gameTime);
